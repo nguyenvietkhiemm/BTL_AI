@@ -26,20 +26,20 @@
         "src/**/*.{js,json,scss}": "prettier package.json --write --tab-width 4 --single-quote --trailing-comma all"
     },
     "husky": {
-      "hooks": {
-        "pre-commit": "lint-staged"
-      }
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
     },
     "dependencies": {
         "express": "^4.18.3",
-        "express-handlebars": "^7.1.2",
-        "husky": "^9.0.11",
-        "lint-staged": "^15.2.2",
-        "prettier": "^3.2.5"
+        "express-handlebars": "^7.1.2"
     },
     "devDependencies": {
+        "husky": "^9.0.11",
+        "lint-staged": "^15.2.2",
         "morgan": "^1.10.0",
         "node-sass": "^9.0.0",
-        "nodemon": "^3.1.0"
+        "nodemon": "^3.1.0",
+        "prettier": "^3.2.5"
     }
 }
